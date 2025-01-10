@@ -1,0 +1,9 @@
+Lec 2 involves :
+1. Packages in java
+2. import statements in java
+3 . "static" keyword:
+     * used for property of the class that is common for all the class object and these are object
+        independent.(so without even creating an object of that class we can access those property,
+        by class name only )
+4. static inside non static and vice-versa
+5. singleton class

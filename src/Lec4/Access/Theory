@@ -1,0 +1,34 @@
+1.Access Modifiers:
+         1."public": *everywhere(same + diff package and subclasses)
+                     * used for data which must be available to public
+
+         2."private": * only within the same class (most restricted)
+                      * used to very sensitive data which needs to be hidden
+
+         3."default": * Same class + same package + subclass(same package) {basically within same package}
+                      * used for those variables which must not be used outside one package
+
+         4."protected":* Same class + same package + subclass(same package)+subclass(diff package)
+                       * when you don't want variables to be used outside the package but in that
+                         case , only can be used if it's a subclass .
+
+2.Imp note for "protected":
+         We know that for protected it can be accessed in different package by subclass only
+         what it actually means is if we have obj of subclass or sub_subclass and so on, then only we can access it
+         otherwise even if it has obj of same class in different package we can't access it
+         because then it is same as public and also parent class is unaware about subclasses
+
+3. Packages: a.User Defined (done above)
+             b.Inbuilt I/O:
+                           1."lang": * It contains essential stuffs for java .
+                                     * examples : like primitive data types and all
+                                     * It is automatically imported
+                           2."I/O":  * It has classes and methods for file reading and all
+                           3."util" :* Has utility stuffs, like dataStructures and collection framework
+                           4."applet" : * For development purposes
+                           5."awt" : * used for gui applications
+                           6."net" : * used for networking operations
+
+4."instanceOf" operator and getClass() method
+
+

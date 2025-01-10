@@ -1,0 +1,16 @@
+All that class and object theory then runtime memory allocation , etc,etc...
+
+this keyword:
+1. Reference the instance variable
+2. from one constructor call another constructor in the same class
+3. Can return the same object( used in method chaining)
+4. Can pass the current object as argument
+
+Wrapper class:
+1. in java wrapper class are used to encapsulated primitive datatype into objects
+
+"final" keyword with primitive and objects :
+1. With primitive : Once we initialize it value can't be changed later (but always needs to be
+   initialized)
+2. With objects : Objects values can be changed but we can't change the reference once we apply
+   final keyword with any object's reference

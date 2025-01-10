@@ -1,0 +1,59 @@
+Principles of OOPS:
+1.Inheritance: Child class inherits the property of parent class
+              * Child class needs to initialise parent class by parent class constructor
+                using "super" keyword
+              * Child class won't be able to access the "private" members of parent class
+              * Parent class object won't be able to access child class methods and variables
+              * We can have ref of parent class and object of child class but "not" vice versa
+              * The reason for above point is : Since child class can initialize parent class but
+                parent class in unaware of the child class
+              * type of the reference variables  : determines the methods and variables which can be used
+              * type of object : it determines which functions will actually run or basically methods
+                                 are overridden here and for that reason we need to have all the methods
+                                 of child class to parent class although it is being overridden
+              *"super" keyword: used to initialise parent class variables and also used to access parent
+                               class variables and methods
+              * Every class is has a parent class as "object" class
+              * types : Single , Multiple, hierarchical and hybrid
+              * Directly by classes we can't have multiple and hybrid inheritance
+              * A class can't be it's own super class
+
+2.Polymorphism : Having many forms(occurs during inheritance)
+               types:
+               1. CompileTime(static){early binding}:achieved via "method overloading"
+               2. RunTime (dynamic) {late binding}: achieved via "method overriding"
+                      ---dynamic method dispatch
+               3.Imp: polymorphism doesn't apply to instance variable in java , meaning
+                      it will totally depend upon ref variable type for accessing the
+                      instance variable not like methods, in which things are determined
+                      both by ref and obj type
+
+3."final" Keyword:
+                  * 1. prevents override:
+                    -method overriding can be resolved by putting final keyword before method .
+                     The methods with final keyword can't be overridden in child class
+                    -for early binding we put final before method and it reduces the overhead of
+                     selecting which method to call
+                  * 2. prevents inheritance: by putting final before classes
+                       use case: it created immutable class such as String in java
+
+4. Can we override static method ?
+   -- No , because it itself isn't depended upon the object or instance of the class
+      note: Although it can be inherited : meaning if we have ref of child and obj of child
+            then child class method will run the above thing is for ref of parent and obj of
+            child class
+
+5. Encapsulation: Wrapping up the implementation of the data members and the methods inside the
+                  class. It hides the data and method as an single entity from outside world.
+6. Abstraction : Hiding unnecessary details and only showing important features
+
+
+
+
+
+
+
+
+
+
+
