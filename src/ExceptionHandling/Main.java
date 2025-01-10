@@ -33,9 +33,6 @@ public class Main {
         return a/b;
     }
     static int divide2 (int a, int b) throws Exception{
-        if(b==0){
-            throw new Exception("don't divide by zero");
-        }
         return a/b;
     }
 }
